@@ -1,0 +1,24 @@
+Can you write a python script that scraps food nutritional parameters from a 
+local supermarket website and prints them in json format?
+The nutritional data can be found in the webpage source code, with in the following
+example (it is written in catalan):
+<table><tbody><tr><td></td><td>per 100 g:</td></tr><tr><td>Valor energètic </td><td> 2174 kJ / 521 kcal</td></tr><tr><td>Greixos </td><td> 31 g</td></tr><tr><td>de les quals saturats </td><td> 2,3 g</td></tr><tr><td>Hidrats de carboni </td><td> 53 g</td></tr><tr><td>dels quals sucres </td><td> 0,4 g</td></tr><tr><td>Proteïnes </td><td> 6,1 g</td></tr><tr><td>Fibra alimentària </td><td> 5,2 g</td></tr><tr><td>Sal </td><td> 0,85 g</td></tr></tbody></table>
+And on another part of the source code of the page the name of the product can be found:
+<h1 class="_display_xy0eg_1 sc-q2s63n-0 fGRpXS">Name of the product</h1>
+On another par of the source code the price per kg can be found:
+<span class="_display_xy0eg_1">1,75&nbsp;€</span>
+Can you write a scrpt that gets the webpage and transforms it to the following json?
+{
+	"name": "food_name",
+    "price_per_kg_in_eur": 2.99,
+    "calories_per_100g_in_kcal": 521,
+	"carbs_per_100g_in_g": 30,
+	"sugars_per_100g_in_g": 3,
+	"fats_per_100g_in_g": 15,
+	"saturated_fats_per_100g_in_g": 3,
+	"dietay_fiber_per_100g_in_g": 10,
+	"protein_per_100g_in_g": 0,
+	"salt_per_100g_in_g": 1,
+	"glycemic_index": 12,
+	"nova_category": 1
+}

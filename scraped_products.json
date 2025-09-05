@@ -1,0 +1,72 @@
+[
+    {
+        "name": "ECOBASICS Llenties pardina ecològiques",
+        "price_per_kg_in_eur": 2.99,
+        "calories_per_100g_in_kcal": 366.0,
+        "carbs_per_100g_in_g": 56.0,
+        "sugars_per_100g_in_g": 4.3,
+        "fats_per_100g_in_g": 2.5,
+        "saturated_fats_per_100g_in_g": 0.9,
+        "dietay_fiber_per_100g_in_g": 17.0,
+        "protein_per_100g_in_g": 25.0,
+        "salt_per_100g_in_g": 0.01,
+        "glycemic_index": -1,
+        "nova_category": -1
+    },
+    {
+        "name": "BONPREU Arròs integral ecològic",
+        "price_per_kg_in_eur": 1.69,
+        "calories_per_100g_in_kcal": 351.0,
+        "carbs_per_100g_in_g": 74.0,
+        "sugars_per_100g_in_g": 1.0,
+        "fats_per_100g_in_g": 2.2,
+        "saturated_fats_per_100g_in_g": 0.7,
+        "dietay_fiber_per_100g_in_g": 2.2,
+        "protein_per_100g_in_g": 7.8,
+        "salt_per_100g_in_g": 0.06,
+        "glycemic_index": -1,
+        "nova_category": -1
+    },
+    {
+        "name": "BONPREU Oli d'oliva verge extra",
+        "price_per_kg_in_eur": 4.85,
+        "calories_per_100g_in_kcal": 900.0,
+        "carbs_per_100g_in_g": 0.0,
+        "sugars_per_100g_in_g": 0.0,
+        "fats_per_100g_in_g": 100.0,
+        "saturated_fats_per_100g_in_g": 16.0,
+        "dietay_fiber_per_100g_in_g": null,
+        "protein_per_100g_in_g": 0.0,
+        "salt_per_100g_in_g": 0.0,
+        "glycemic_index": -1,
+        "nova_category": -1
+    },
+    {
+        "name": "BONPREU Pit filetejat pollastre",
+        "price_per_kg_in_eur": 3.95,
+        "calories_per_100g_in_kcal": 111.0,
+        "carbs_per_100g_in_g": 0.5,
+        "sugars_per_100g_in_g": 0.5,
+        "fats_per_100g_in_g": 2.6,
+        "saturated_fats_per_100g_in_g": 0.6,
+        "dietay_fiber_per_100g_in_g": null,
+        "protein_per_100g_in_g": 22.0,
+        "salt_per_100g_in_g": 0.1,
+        "glycemic_index": -1,
+        "nova_category": -1
+    },
+    {
+        "name": "BONPREU Ous frescos ecològics classe L",
+        "price_per_kg_in_eur": 4.45,
+        "calories_per_100g_in_kcal": 141.0,
+        "carbs_per_100g_in_g": 0.7,
+        "sugars_per_100g_in_g": 0.7,
+        "fats_per_100g_in_g": 9.7,
+        "saturated_fats_per_100g_in_g": 2.8,
+        "dietay_fiber_per_100g_in_g": null,
+        "protein_per_100g_in_g": 13.0,
+        "salt_per_100g_in_g": 0.36,
+        "glycemic_index": -1,
+        "nova_category": -1
+    }
+]
